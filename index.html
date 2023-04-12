@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>forms</title>
+	<style type="text/css">
+		p{
+			font-size: 50px;
+			color: lightblue;
+			background-color: cyan;
+		}
+	</style>
+</head>
+<body>
+<p>Ми вивчаємо форми</p>
+<form name="f1" action="">
+	Текстова форма <br />
+	<input type="text" name="text1" size="20" maxlength="50" value="Введіть текст"><br />
+	Текстова форма <br />
+	<input type="text" name="text2" size="20" maxlength="50" value="Тільки для читання" readonly><br />
+	Текстова форма <br />
+	<input type="text" name="text3" size="20" maxlength="50" value="Не активне поле" disabled><br />
+	Форма для введення паролю <br />
+	<input type="password" name="pass1" size="20"><br />
+	Які предмети ві полюбляєте? <br />
+	<input type="checkbox" name="lan1" value="tm">Теорія ймовірності
+	<input type="checkbox" name="lan2" value="ec">Екологія
+	<input type="checkbox" name="lan3" value="ip">ІПЗ
+	<input type="checkbox" name="lan4" value="al">Алгоритми
+	<input type="checkbox" name="lan5" value="ch">Схемотехніка
+	<input type="checkbox" name="lan6" value="ht" checked>HTML
+	<input type="checkbox" name="lan7" value="en">Іноземна мова
+	Вкажіть вашу стать: <br />
+	<input type="radio" name="gender" value="m" checked>чоловіча
+	<input type="radio" name="gender" value="f">жіноча
+	<input type="submit" name="submit" value="підтвердити">
+	<input type="reset" name="reset" value="очистити">
+	<input type="button" name="but1" value="відправити">
+	<input type="image" name="but2" src="img/imageTree">
+	<button name="submit1" type="submit">
+		<img src="img/imageTree">Відправити
+	</button>
+
+	<input type="file" name="load">
+	<textarea cols="20" rows="3" wrap="off">
+		
+	</textarea>
+	<textarea cols="20" rows="3" wrap="virtual">
+		
+	</textarea>
+	<textarea cols="60" rows="7" wrap="phisical">
+		
+	</textarea>
+	<select name="lang" size="1">
+		<option value="en">англійська</option>
+		<option value="jp">японська</option>
+		<option value="ua">українська</option>
+		<option value="fr">французська</option>
+		<option value="is">іспанська</option>
+	</select>
+</form>
+</body>
+</html>
